@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://in-clude.github.io/xiaomeiyan/</id>
     <title>黑岩</title>
-    <updated>2021-05-15T15:43:39.296Z</updated>
+    <updated>2021-05-15T15:45:46.450Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://in-clude.github.io/xiaomeiyan/"/>
     <link rel="self" href="https://in-clude.github.io/xiaomeiyan/atom.xml"/>
@@ -118,6 +118,22 @@ int main()
 <p>【注】： launch.json 文件中 &quot;preLaunchTask&quot; 的值 必须与 tasks.json 文件中 &quot;label&quot;的值一致。值的设置看个人喜好，保持默认也是OK的。</p>
 <h4 id="6-运行"><strong>6. 运行</strong></h4>
 <p>返回 HelloWorld.cpp 文件，按F5调试，发现完全OK了！</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于]]></title>
+        <id>https://in-clude.github.io/xiaomeiyan/post/about/</id>
+        <link href="https://in-clude.github.io/xiaomeiyan/post/about/">
+        </link>
+        <updated>2019-01-25T11:09:48.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+<h2 id="关于本站这不重要">🏠 关于本站：这不重要</h2>
+<h2 id="博主是谁这也不重要">👨‍💻 博主是谁：这也不重要</h2>
+<h2 id="兴趣爱好-acgn-acgn-acgn">⛹ 兴趣爱好： ACGN ACGN ACGN</h2>
+<h2 id="联系我呀httpsspacebilibilicom12045458">📬 联系我呀：https://space.bilibili.com/12045458</h2>
+<figure data-type="image" tabindex="1"><img src="https://in-clude.github.io/xiaomeiyan//post-images/1621090833995.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>
