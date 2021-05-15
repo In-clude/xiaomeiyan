@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Visual Studio Code (vscode) 配置 C / C++ 环境 | 黑岩</title>
-<link rel="shortcut icon" href="https://in-clude.github.io/xiaomeiyan//favicon.ico?v=1621093128731">
+<link rel="shortcut icon" href="https://in-clude.github.io/xiaomeiyan//favicon.ico?v=1621093312933">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://in-clude.github.io/xiaomeiyan//styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="Visual Studio Code (vscode) 配置 C / C++ 环境 | 黑岩 - Atom Feed" href="https://in-clude.github.io/xiaomeiyan//atom.xml">
@@ -32,7 +32,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://in-clude.github.io/xiaomeiyan/">
-  <img class="avatar" src="https://in-clude.github.io/xiaomeiyan//images/avatar.png?v=1621093128731" alt="">
+  <img class="avatar" src="https://in-clude.github.io/xiaomeiyan//images/avatar.png?v=1621093312933" alt="">
   </a>
   <h1 class="site-title">
     黑岩
@@ -141,7 +141,6 @@ int main()
    return 0;
 }
 </code></pre>
-<p>复制代码</p>
 <p>(4)进入调试界面添加配置环境，选择 C++(GDB/LLDB)，再选择 g++.exe，之后会自动生成 launch.json 配置文件<br>
 (5)编辑 launch.json 配置文件</p>
 <p>复制代码</p>
@@ -172,10 +171,9 @@ int main()
 25     ]
 26 }
 </code></pre>
-<p>复制代码<br>
-(6)返回.cpp文件，按F5进行调试，会弹出找不到任务&quot;task g++&quot;，选择 &quot;配置任务&quot;，会自动生成 tasks.json 文件<br>
-(7)编辑 tasks.json 文件<br>
-复制代码</p>
+<p>(6)返回.cpp文件，按F5进行调试，会弹出找不到任务&quot;task g++&quot;，选择 &quot;配置任务&quot;，会自动生成 tasks.json 文件<br>
+(7)编辑 tasks.json 文件</p>
+<p>复制代码</p>
 <pre><code> 1 {
  2     &quot;version&quot;: &quot;2.0.0&quot;,
  3     &quot;tasks&quot;: [
@@ -200,7 +198,6 @@ int main()
 22     ]
 23 }
 </code></pre>
-<p>复制代码</p>
 <p>【注】： launch.json 文件中 &quot;preLaunchTask&quot; 的值 必须与 tasks.json 文件中 &quot;label&quot;的值一致。值的设置看个人喜好，保持默认也是OK的。</p>
 <h4 id="6-运行"><strong>6. 运行</strong></h4>
 <p>返回 HelloWorld.cpp 文件，按F5调试，发现完全OK了！</p>
