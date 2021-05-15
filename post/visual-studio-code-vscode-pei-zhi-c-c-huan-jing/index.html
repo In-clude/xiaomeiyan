@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Visual Studio Code (vscode) 配置 C / C++ 环境 | 黑岩</title>
-<link rel="shortcut icon" href="https://in-clude.github.io/xiaomeiyan//favicon.ico?v=1621092470012">
+<link rel="shortcut icon" href="https://in-clude.github.io/xiaomeiyan//favicon.ico?v=1621093041705">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://in-clude.github.io/xiaomeiyan//styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="Visual Studio Code (vscode) 配置 C / C++ 环境 | 黑岩 - Atom Feed" href="https://in-clude.github.io/xiaomeiyan//atom.xml">
@@ -11,7 +11,7 @@
 
 
 
-    <meta name="description" content="###开始
+    <meta name="description" content="开始
 
 下载VScode
 安装cpptools工具
@@ -20,9 +20,9 @@
 使用简单的.cpp文件配置C++环境
 运行
 
-###详细解读：
-####1. 下载VScode
-下载链接：https://code.visualstud..." />
+详细解读：
+1. 下载VScode
+下载链接：https://code.visualstudio.com/Dow..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -32,7 +32,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://in-clude.github.io/xiaomeiyan/">
-  <img class="avatar" src="https://in-clude.github.io/xiaomeiyan//images/avatar.png?v=1621092470012" alt="">
+  <img class="avatar" src="https://in-clude.github.io/xiaomeiyan//images/avatar.png?v=1621093041705" alt="">
   </a>
   <h1 class="site-title">
     黑岩
@@ -99,7 +99,7 @@
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>###开始</p>
+                <h3 id="开始"><strong>开始</strong></h3>
 <ol>
 <li>下载VScode</li>
 <li>安装cpptools工具</li>
@@ -108,18 +108,18 @@
 <li>使用简单的.cpp文件配置C++环境</li>
 <li>运行</li>
 </ol>
-<p>###详细解读：<br>
-####1. 下载VScode<br>
-下载链接：<a href="https://code.visualstudio.com/Download">https://code.visualstudio.com/Download</a><br>
+<h3 id="详细解读"><strong>详细解读</strong>：</h3>
+<h4 id="1-下载vscode"><strong>1. 下载VScode</strong></h4>
+<p>下载链接：<a href="https://code.visualstudio.com/Download">https://code.visualstudio.com/Download</a><br>
 安装过程：一路下一步，安装很简单，安装路径看个人</p>
-<p>####1. 安装cpptools工具<br>
-打开vscode，按照以下步骤安装</p>
-<p>####3. 下载MinGW<br>
-下载地址：<a href="https://sourceforge.net/projects/mingw-w64/files/">https://sourceforge.net/projects/mingw-w64/files/</a></p>
+<h4 id="1-安装cpptools工具"><strong>1. 安装cpptools工具</strong></h4>
+<p>打开vscode，按照以下步骤安装</p>
+<h4 id="3-下载mingw"><strong>3</strong>. <strong>下载MinGW</strong></h4>
+<p>下载地址：<a href="https://sourceforge.net/projects/mingw-w64/files/">https://sourceforge.net/projects/mingw-w64/files/</a></p>
 <p>下载的文件：进入网站后不要点击 &quot;Download Lasted Version&quot;，往下滑，找到最新版的 &quot;x86_64-posix-seh&quot;。<br>
 安装MinGW：下载后是一个7z的压缩包，解压后移动到你想安装的位置即可。</p>
-<p>####4. 配置环境变量<br>
-配置对象：MinGW，所以把你刚刚安装MinGW的路径拷贝一下</p>
+<h4 id="4-配置环境变量"><strong>4. 配置环境变量</strong></h4>
+<p>配置对象：MinGW，所以把你刚刚安装MinGW的路径拷贝一下</p>
 <p>配置环境变量：在此以win10为例，到达第6步之后，前面打开的窗口都要按下确定，否则会失败。<br>
 【注】：win7需要添加路径，不要覆盖了。万一真的覆盖了，点击取消重来一遍，只要不点确定，啥都好说 <sup>o</sup></p>
 <p>配置好环境变量后最好重启一下 VScode <sup>V</sup></p>
@@ -127,8 +127,8 @@
 按下 win + R，输入cmd，回车键之后输入g++，再回车，如果提示以下信息[1]，则环境变量配置成功。如果提示以下信息[2]，则环境变量配置失败。</p>
 <p>[1]：g++: fatal error: no input files<br>
 [2]：'g++' 不是内部或外部命令，也不是可运行的程序或批处理文件。</p>
-<p>####5. 使用简单的.cpp文件配置C++环境<br>
-（1）新建空文件夹Code<br>
+<h4 id="5-使用简单的cpp文件配置c环境"><strong>5. 使用简单的.cpp文件配置C++环境</strong></h4>
+<p>（1）新建空文件夹Code<br>
 （2）打开VScode --&gt; 打开文件夹 --&gt; 选择刚刚创建的文件夹Code<br>
 （3）新建test.cpp文件(以最简单的 HelloWorld.cpp 为例)</p>
 <p>复制代码</p>
@@ -142,8 +142,8 @@ int main()
 }
 </code></pre>
 <p>复制代码</p>
-<p>（4）进入调试界面添加配置环境，选择 C++(GDB/LLDB)，再选择 g++.exe，之后会自动生成 launch.json 配置文件</p>
-<p>(5)编辑 launch.json 配置文件</p>
+<p>(4)进入调试界面添加配置环境，选择 C++(GDB/LLDB)，再选择 g++.exe，之后会自动生成 launch.json 配置文件<br>
+(5)编辑 launch.json 配置文件</p>
 <p>复制代码</p>
 <pre><code> 1 {
  2     &quot;version&quot;: &quot;0.2.0&quot;,
@@ -202,12 +202,33 @@ int main()
 </code></pre>
 <p>复制代码</p>
 <p>【注】： launch.json 文件中 &quot;preLaunchTask&quot; 的值 必须与 tasks.json 文件中 &quot;label&quot;的值一致。值的设置看个人喜好，保持默认也是OK的。</p>
-<p>####6. 运行<br>
-返回 HelloWorld.cpp 文件，按F5调试，发现完全OK了！</p>
+<h4 id="6-运行"><strong>6. 运行</strong></h4>
+<p>返回 HelloWorld.cpp 文件，按F5调试，发现完全OK了！</p>
 
               </div>
               <div class="toc-container">
-                
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#%E5%BC%80%E5%A7%8B"><strong>开始</strong></a></li>
+<li><a href="#%E8%AF%A6%E7%BB%86%E8%A7%A3%E8%AF%BB"><strong>详细解读</strong>：</a>
+<ul>
+<li><a href="#1-%E4%B8%8B%E8%BD%BDvscode"><strong>1. 下载VScode</strong></a></li>
+<li><a href="#1-%E5%AE%89%E8%A3%85cpptools%E5%B7%A5%E5%85%B7"><strong>1. 安装cpptools工具</strong></a></li>
+<li><a href="#3-%E4%B8%8B%E8%BD%BDmingw"><strong>3</strong>. <strong>下载MinGW</strong></a></li>
+<li><a href="#4-%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F"><strong>4. 配置环境变量</strong></a></li>
+<li><a href="#5-%E4%BD%BF%E7%94%A8%E7%AE%80%E5%8D%95%E7%9A%84cpp%E6%96%87%E4%BB%B6%E9%85%8D%E7%BD%AEc%E7%8E%AF%E5%A2%83"><strong>5. 使用简单的.cpp文件配置C++环境</strong></a></li>
+<li><a href="#6-%E8%BF%90%E8%A1%8C"><strong>6. 运行</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
               </div>
             </div>
           </article>
