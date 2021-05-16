@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://in-clude.github.io/xiaomeiyan/</id>
     <title>黑岩</title>
-    <updated>2021-05-15T16:13:23.921Z</updated>
+    <updated>2021-05-16T03:28:52.372Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://in-clude.github.io/xiaomeiyan/"/>
     <link rel="self" href="https://in-clude.github.io/xiaomeiyan/atom.xml"/>
@@ -38,8 +38,8 @@
 <h4 id="4-配置环境变量"><strong>4. 配置环境变量</strong></h4>
 <p>配置对象：MinGW，所以把你刚刚安装MinGW的路径拷贝一下</p>
 <p>配置环境变量：在此以win10为例，到达第6步之后，前面打开的窗口都要按下确定，否则会失败。<br>
-【注】：win7需要添加路径，不要覆盖了。万一真的覆盖了，点击取消重来一遍，只要不点确定，啥都好说 <sup>o</sup></p>
-<p>配置好环境变量后最好重启一下 VScode <sup>V</sup></p>
+【注】：win7需要添加路径，不要覆盖了。万一真的覆盖了，点击取消重来一遍，只要不点确定，啥都好说</p>
+<p>配置好环境变量后最好重启一下 VScode</p>
 <p>❁❁❁ 验证一下环境变量是否配置成功<br>
 按下 win + R，输入cmd，回车键之后输入g++，再回车，如果提示以下信息[1]，则环境变量配置成功。如果提示以下信息[2]，则环境变量配置失败。</p>
 <p>[1]：g++: fatal error: no input files<br>
