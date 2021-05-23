@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://in-clude.github.io/xiaomeiyan/</id>
     <title>黑岩</title>
-    <updated>2021-05-23T05:41:28.514Z</updated>
+    <updated>2021-05-23T05:43:43.548Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://in-clude.github.io/xiaomeiyan/"/>
     <link rel="self" href="https://in-clude.github.io/xiaomeiyan/atom.xml"/>
@@ -61,7 +61,7 @@
 <p><strong>配置要点：</strong></p>
 <ul>
 <li>
-<p><strong>repo</strong>：用户名/仓库名称*（仓库地址后面那一段）；*</p>
+<p><strong>repo</strong>：用户名/仓库名称 <em>（仓库地址后面那一段）；</em></p>
 </li>
 <li>
 <p><strong>branch</strong>：分支，填写master；</p>
