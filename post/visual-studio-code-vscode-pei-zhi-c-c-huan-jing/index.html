@@ -122,7 +122,7 @@
 安装MinGW：下载后是一个压缩包，解压后移动到你想安装的位置即可。</p>
 <h4 id="4-配置环境变量"><strong>4. 配置环境变量</strong></h4>
 <p>配置对象：MinGW，所以把你刚刚安装MinGW的路径拷贝一下</p>
-<p>配置环境变量：在此以win10为例，到达第6步之后，前面打开的窗口都要按下确定，否则会失败。<br>
+<p>配置环境变量：在此以win10为例，计算机-属性-高级系统设置-环境变量-Path，前面打开的窗口都要按下确定，否则会失败。<br>
 <p>配置好环境变量后最好重启一下 VScode</p>
 <p>验证一下环境变量是否配置成功<br>
 按下 win + R，输入cmd，回车键之后输入g++，再回车，如果提示以下信息[1]，则环境变量配置成功。如果提示以下信息[2]，则环境变量配置失败。</p>
@@ -189,7 +189,7 @@ int main()
 12                 &quot;${fileDirname}\\${fileBasenameNoExtension}.exe&quot;
 13             ],
 14             &quot;options&quot;: {
-15                 &quot;cwd&quot;: &quot;D:\\2Software\\mingw64\\bin&quot;    //
+15                 &quot;cwd&quot;: &quot;D:\\2Software\\mingw64\\bin&quot;    //工作目录
 16             },
 17             &quot;problemMatcher&quot;: [
 18                 &quot;$gcc&quot;
